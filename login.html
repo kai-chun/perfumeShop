@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>D'Perfume</title>
+
+    <link rel="shortcut icon" href="img/logo/d’Perfume-title.ico">
+    <meta name='description' content='the website of perfume shop' />
+
+    <meta property="og:title" content="D'Perfume" />
+    <meta property="og:description" content="the website of perfume shop">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="D'Perfume" />
+    <meta property="og:image" content="img/main-banner.png" />
+
+    <link href="img/logo/d’Perfume.png" rel="apple-touch-icon" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/all.js"></script>
+</head>
+<body>
+    <header class="position-relative">
+        <div class="container">
+            <nav class="d-flex justify-content-between align-items-center mb-40px">
+                <h1 class="m-0"><a href="index.html"><img src="./img/logo/d’Perfume.png" alt="logo"></a></h1>
+                <ul class="header_menu d-none d-lg-flex justify-content-between m-0">
+                    <li>
+                        <a class="h5 d-flex align-items-center text-dark font-weight-light p-3" href="product.html">
+                            <i class="fas fa-tshirt mr-2"></i>
+                            <p class="m-0">Product</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="h5 d-flex align-items-center text-dark font-weight-light p-3" href="login.html">
+                            <i class="fas fa-user-alt mr-1"></i>
+                            <p class="m-0">log in</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="h5 d-flex align-items-center text-dark font-weight-light p-3" href="#">
+                            <i class="fas fa-heart mr-1"></i>
+                            <p class="m-0">Wishlist</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="h5 d-flex align-items-center text-dark font-weight-light p-3" href="#">
+                            <i class="fas fa-shopping-cart mr-2"></i>
+                            <p class="m-0">Cart(3)</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="header-mobile d-flex d-lg-none align-items-center">
+                    <a class="cart-m position-relative" href="#">
+                        <img src="./img/icon/shopping-cart.svg" alt="shopping-cart">
+                        <p class="cart-mark rounded-circle bg-primary text-white">3</p>
+                    </a>
+                    <a class="ham" href="#"><img src="img/icon/bars.svg" alt="ham"></a>
+                </div>
+            </nav>
+        </div>
+        <div class="container-fluid">
+            <ul class="header_menu-m d-block d-lg-none w-100 p-0">
+                <li><a href="product.html" class="d-block text-white px-0 py-3">Product</a></li>
+                <li><a href="#" class="d-block text-white px-0 py-3">Wishlist</a></li>
+                <li><a href="#" class="d-block text-white px-0 py-3">Blog</a></li>
+                <li><a href="#" class="d-block text-white px-0 py-3">Contact</a></li>
+                <li><a href="login.html" class="d-block text-white px-0 py-3">Log in</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--頁面內容開始-->
+    <div class="product_category bg-primary d-none d-lg-flex mb-80px">
+        <div class="container">
+            <ul class="d-flex m-0 p-0">
+                <li><a href="#" class="d-block text-white p-3">CHANEL</a></li>
+                <li><a href="#" class="d-block text-white p-3">Jo Malone</a></li>
+                <li><a href="#" class="d-block text-white p-3">Curology</a></li>
+                <li><a href="#" class="d-block text-white p-3">Dior</a></li>
+                <li><a href="#" class="d-block text-white p-3">Chloe</a></li>
+                <li><a href="#" class="d-block text-white p-3">ZARA</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="login_content">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-8">
+                    <img src="img/login-pic.png" class="d-none d-md-block mb-80px" alt="product pic">
+                    <img src="img/login-pic-m.png" class="d-block d-md-none mb-4" alt="product pic">
+                </div>
+                <div class="col-12 col-md-4">
+                    <h2 class="font-weight-bold mb-3">Log in</h3>
+                    <form class="mb-4">
+                        <div class="form-group">
+                            <label for="account">帳號</label>
+                            <input type="text" class="form-control" id="account" placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">密碼</label>
+                            <input type="text" class="form-control" id="pwd" placeholder="Password">
+                        </div>
+                    </form>
+                    <div class="button-group d-flex justify-content-between align-items-center">
+                        <a href="#" class="text-primary">忘記密碼</a>
+                        <div class="button-group-inner">
+                            <button type="button" class="btn btn-outline-primary mr-2">註冊</button>
+                            <a href="member.html" class="btn btn-primary" role="button">登入</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--頁面內容結束-->
+    <footer>
+        <div class="footer_menu bg-primary">
+            <div class="container">
+                <div class="footer_menu_inner d-flex justify-content-between align-items-center">
+                    <div class="copyright d-flex align-items-center">
+                        <img src="./img/logo/d’Perfume-white.png" alt="logo">
+                        <p class="text-white m-0">© 2020. All Rights Reserved.</p>
+                    </div>
+                    <nav class="d-none d-lg-block">
+                        <ul class="d-flex m-0">
+                            <li><a href="product.html" class="text-white">Product</a></li>
+                            <li><a href="#" class="text-white">Blog</a></li>
+                            <li><a href="#" class="text-white">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

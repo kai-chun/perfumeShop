@@ -1,0 +1,20 @@
+/*content*/
+
+.member_content{
+    .active{
+        border-bottom: 2px solid $primary;
+    }
+    .text-lightGray{
+        font-size: 14px;
+        color: #A5A5A5;
+        margin-bottom: 40px;
+    }
+}
+
+.member_content-info{
+    i{
+        width: 20px;
+        height: 20px;
+        color: $black;
+    }
+}

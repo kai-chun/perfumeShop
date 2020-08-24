@@ -1,0 +1,39 @@
+/*content*/
+
+.productInfo_content{
+    select{
+        border: 1px solid $primary;
+        outline-color: $primary;
+        padding: 14px auto;
+    }
+    option{
+        font-size: 16px;
+    }
+    a{
+        margin-bottom: 80px;
+        @include md{
+            margin-bottom: 40px;
+        }
+    }
+    button{
+        font-size: 16px !important;
+    }
+}
+
+.productInfo-mainPic{
+    margin-bottom: 30px;
+
+    @include md{
+        margin-bottom: 28px;
+    }
+}
+
+.productInfo-notice{
+    h4{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,35 @@
+/*content*/
+
+.product_content{
+    .card{
+        padding-bottom: 40px;
+    }
+    ul{
+        display: flex;
+        padding: 0;
+    }
+    li{
+        margin-right: 10px;
+    }
+    a{
+        color: $black;
+    }
+}
+
+.modal-dialog{
+    margin: 33% auto;
+
+    @include lg{
+        margin: 37% auto;
+    }
+    @include md{
+        margin: 45% auto;
+    }
+    @include sm{
+        margin: 62% 10%;
+    }
+}
+
+.modal-body{
+    font-size: 20px;
+}
