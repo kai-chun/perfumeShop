@@ -11175,6 +11175,10 @@ header h1 {
 }
 
 header h1 a {
+  background-image: url("../img/logo/d’Perfume.png");
+  background-size: cover;
+  width: 128px;
+  height: 38px;
   text-indent: 101%;
   white-space: nowrap;
   overflow: hidden;
@@ -11418,24 +11422,6 @@ header .active {
   .main_product .sold-out {
     padding: 47% 0;
   }
-}
-
-.product-card {
-  /*product也有用*/
-  border: none;
-}
-
-.product-card .card-body {
-  padding-left: 0;
-}
-
-.product-card h5 {
-  font-size: 24px;
-}
-
-.product-card span {
-  color: #8D8D8D;
-  text-decoration: line-through;
 }
 
 /*feature*/

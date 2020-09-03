@@ -26,6 +26,10 @@ header{
         padding: 10px 0;
 
         a{
+            background-image: url("../img/logo/d’Perfume.png");
+            background-size: cover;
+            width: 128px;
+            height: 38px;
             @include hide-text;
         }
         img{
